@@ -1,4 +1,4 @@
-cpp -P IDE.java Main.java
+cpp -P IDE.clp Main.java
 
 javac -classpath .:target/dependency/* -d . $(find . -type f -name '*Main.java')
 
